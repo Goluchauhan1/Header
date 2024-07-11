@@ -1,0 +1,113 @@
+.headerTop {
+  height: 45px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.headerTop .top-icn {
+  color: rgba(0, 0, 0, 0.7);
+  transition: 0.5s ease-in-out;
+}
+.headerTop .top-icn:hover {
+  color: #fd6907;
+}
+.headerTop::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 50%;
+  height: 34.5px;
+  background: #003c71;
+  transform: skewX(-30deg);
+}
+
+.headerMain {
+  background: #003c71;
+}
+.headerMain .logo img {
+  width: 150px;
+}
+.headerMain .logoContent {
+  color: #ffffff;
+}
+
+.headerNav {
+  background: #003c71;
+}
+@media (min-width: 993px) {
+  .headerNav {
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.8);
+    height: 62px;
+  }
+  .headerNav::after {
+    content: "";
+    position: absolute;
+    top: 128px;
+    left: -20px;
+    width: 15%;
+    height: 61.8px;
+    background: #003c71;
+    transform: skewX(-30deg);
+  }
+  .headerNav .navbar {
+    padding-left: 9% !important;
+  }
+}
+.headerNav .navbar button {
+  font-size: 30px;
+}
+.headerNav .navbar .nav-item .active {
+  color: #fd6907;
+}
+.headerNav .navbar .navbar-brand img {
+  width: 120px;
+}
+.headerNav .navbar .nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+  color: #ffffff;
+}
+.headerNav .navbar .nav-link:hover {
+  color: #fd6907;
+}
+.headerNav .navbar .nav-link:hover:after {
+  width: 100%;
+}
+.headerNav .navbar .nav-link::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: #fd6907;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+
+#navbarNav {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  border-color: #fd6907 !important;
+}
+#navbarNav .nav-item .active {
+  color: #fd6907;
+}
+#navbarNav .nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: 0.5s ease-in-out;
+}
+#navbarNav .nav-link:hover {
+  color: #fd6907;
+}
+#navbarNav .logoContent {
+  font-size: 16px;
+  color: #ffffff;
+}
+#navbarNav .top-icn {
+  color: #ffffff;
+  transition: 0.5s ease-in-out;
+}
+#navbarNav .top-icn:hover {
+  color: #fd6907;
+}/*# sourceMappingURL=style.css.map */
