@@ -1,0 +1,24 @@
+@mixin after(){
+    content: "";
+    height: 2px;
+    width: 0;
+    display: block;
+    background-color: $primaryColor;
+    transition: 0.5s ease-in-out;
+}
+@mixin afterSkew($height, $top, $width){
+    content: "";
+    position: absolute;
+    height: $height;
+    top: $top;
+    left: -20px;
+    width: $width;
+    background: rgba($color: $darkBlueColor, $alpha: 1);
+    transform: skewX(-30deg);
+}
+@mixin textStyle($color,$fw){
+    font-size: 16px;
+    font-weight: $fw;
+    color: $color;
+    transition: 0.5s ease-in-out;
+}
