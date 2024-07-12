@@ -71,7 +71,7 @@
   .headerNav::after {
     content: "";
     position: absolute;
-    height: 61.8px;
+    height: 62px;
     top: 128px;
     left: -20px;
     width: 15%;

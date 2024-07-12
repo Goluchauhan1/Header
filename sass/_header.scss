@@ -23,7 +23,7 @@
 }
 .headerNav{
     background: $darkBlueColor;
-    .navbar{
+      .navbar{
         button{
             font-size: 30px;
         }
@@ -51,7 +51,7 @@
         background: rgba($color: $blackColor, $alpha: 0.8);
         height: 62px;
         &::after{
-            @include afterSkew(61.8px, 128px, 15%);
+            @include afterSkew(62px, 128px, 15%);
         }
         .navbar{
             padding-left: 9% !important;
